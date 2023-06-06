@@ -10,7 +10,7 @@
   <a href="https://github.com/mazziera/contact-me-linktree/tree/main#tecnologias-">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mazziera/contact-me-linktree/tree/main#projeto-">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/mazziera/contact-me-linktree/tree/main#projeto-">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/mazziera/contact-me-linktree/tree/main#projeto-">Status</a>
+  <a href="https://github.com/mazziera/contact-me-linktree/tree/main#-status-">Status</a>
 </p>
 
 ## <strong>Tecnologias</strong> 💻
