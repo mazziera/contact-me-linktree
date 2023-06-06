@@ -1,0 +1,15 @@
+@media (min-width: 700px) {
+    :root{
+        --background-fundo: url(../imagens/bg-dark-desktop.jpg);
+    }
+
+    .modo-light{
+        --background-fundo: url(../imagens/bg-light-desktop.jpg);
+    }
+}
+
+@media (max-width: 420px){
+    footer{
+        padding: 20px 0;
+    }
+}

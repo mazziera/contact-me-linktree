@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+body *{
+    color: var(--cor-links-e-textos);
+}
+
+body{
+    min-height: 100vh;
+    background: var(--background-fundo) no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    padding: 0 24px;
+    width: 100%;
+    max-width: 588px;
+    margin: 56px auto 0;
+    margin-top: 0;
+}
+
+.container #perfil{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+}
+
+.container #perfil img{
+    width: 112px;
+    height: 111px;
+    align-self: center;
+}
+
+.container #perfil p{
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px;
+}
+
+.container .interruptor{
+    position: relative;
+    width: 64px;
+    margin: 4px auto;
+}
+
+.container .interruptor button{
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: var(--imagem-interruptor) white no-repeat center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    animation: deslizar-frente 0.4s forwards;
+}
+
+.container .interruptor .track{
+    display: block;
+    width: 64px;
+    height: 24px;
+    background-color: var(--cor-bg-links);
+    border: 1px solid var(--cor-borda-links);
+    border-radius: 9999px;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+.container ul li a{
+    padding: 16px 24px;
+    background-color: var(--cor-bg-links);
+    border: 1px solid var(--cor-borda-links);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.container ul li a:hover{
+    background-color: var(--cor-borda-links);
+    border: 1.5 solid white ;
+}
+
+.container .redes-sociais{
+    padding: 24px 3px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container .redes-sociais ion-icon{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.container .redes-sociais a{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .redes-sociais a:hover{
+    background-color: var(--cor-liks-hover);
+    border-radius: 50%;
+}
+
+.container footer{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@keyframes deslizar-atras{
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 50% ;
+    }
+}
+
+@keyframes deslizar-frente{
+    from{
+        left: 50%;
+    }
+
+    to{
+        left: 0;
+    }
+}

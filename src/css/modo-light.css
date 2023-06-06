@@ -1,0 +1,20 @@
+.modo-light{
+    --cor-links-e-textos: black;
+    --background-fundo: url(../imagens/bg-light-mobile.jpg);
+    --cor-borda-links: rgba(0, 0, 0, 0.5);
+    --cor-bg-links:rgba(0, 0, 0, 0.05);
+    --cor-liks-hover: rgba(0, 0, 0, 0.2);
+    --imagem-interruptor: url(../imagens/Sun.svg);
+}
+
+.modo-light .interruptor button{
+    /* right: 0;
+    left: initial; */
+    animation: deslizar-atras 0.4s forwards;
+}
+
+.modo-light #perfil img{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    filter: drop-shadow(3px 3px 3px gray);
+}

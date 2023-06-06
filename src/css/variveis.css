@@ -1,0 +1,8 @@
+:root{
+    --cor-links-e-textos: white;
+    --background-fundo: url(../imagens/bg-dark-mobile.jpg);
+    --cor-borda-links: rgba(255, 255, 255, 0.5);
+    --cor-bg-links: rgba(255, 255, 255, 0.1);
+    --cor-liks-hover: rgba(255, 255, 255, 0.2);
+    --imagem-interruptor: url(../imagens/MoonStars.svg);
+}
